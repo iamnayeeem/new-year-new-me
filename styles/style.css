@@ -33,7 +33,7 @@ header {
     margin-bottom: 20px;
 }
 
-.banner-button {
+.primary-button {
     width: 160px;
     height: 64px;
     font-weight: 600;
@@ -44,22 +44,142 @@ header {
 }
 
 /* End of Header Section Styles */
-
-
-.plan-items {
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* Start: First Section Styles */
+.my-failures {
     display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    
+}
+.failure-image {
+    
+}
+.failure-info {
+    margin: auto 0;
+    padding-left: 80px;
+}
+ul li {
+    list-style: none;
+    padding: 10px 0px;
 }
 
-.section-third {
+.fa-solid {
+    color: green
+}
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+.failure-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+/* My Plan Section Started */
+
+.my-plans {
+    margin-bottom: 100px;
+    text-align: center;
+}
+.plans-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.plan-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-name {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.plan-text {
+    color: #737272;
+    font-size: 16px;
+}
+
+/* Third section Started */
+
+.mindset {
     background-image: url(../images/gradient1.png), url(../images/watch.png);
-    max-width: 1150px;
+    max-width: 1140px;
     background-repeat: no-repeat;
     margin: 0 auto;
     background-position: center;
     border-radius: 20px;
-    
 }
 
-.section-info {
+.mindset-info {
     padding: 100px;
+}
+
+.mindset-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Footer styles started */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 150px 0;
+    
+}
+.footer-section {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.footer-left h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.footer-left p {
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 20px;
+}
+
+.footer-right {
+    margin-left: 250px;
+}
+
+.footer-right h3 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.footer-right input {
+    display: block;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #151414;
+    border: 1px solid #ffffff;
+    color: #F3F3F3;
+    width: 200px;
+}
+.blue {
+    background: #005FAC;
+    color: white;
 }

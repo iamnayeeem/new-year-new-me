@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/52eda4b7b5.js" crossorigin="anonymous"></script>
     <title>New Year New Me</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
         <div class="header-element">
             <h1 class="header-title">All Thinks Are <br>Possible If You <br>believe</h1>
             <p class="header-desc">There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration in some<br> form, by injected humour, or randomised words</p>
-            <button class="banner-button">Contact Us</button>
+            <button class="primary-button">Contact Us</button>
         </div>
     </header>
   
@@ -26,19 +27,19 @@
       
         <!-- Start: First Section  -->
       
-        <section class="section-first">
-            <div>
+        <section class="my-failures">
+            <div class="failure-image">
                 <img src="./images/person.png" alt="Beautiful Woman with sad face">
             </div>
-            <div>
-                <h2>My failures of previous year</h2>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+            <div class="failure-info">
+                <h2 class="failure-title">My Failures of Previous Year</h2>
+                <p class="failure-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
                 <ul>
-                    <li>Contrary to popular belief, is not simply.</li>
-                    <li>Contrary to popular belief</li>
-                    <li>Contrary to popular belief, is not simply.</li>
-                    <li>Contrary to popular belief</li>
-                    <li>Contrary to popular belief, is not simply.</li>
+                    <li><i class="fa-solid fa-check"></i> Contrary to popular belief, is not simply.</li>
+                    <li><i class="fa-solid fa-check"></i> Contrary to popular belief</li>
+                    <li><i class="fa-solid fa-check"></i> Contrary to popular belief, is not simply.</li>
+                    <li><i class="fa-solid fa-check"></i> Contrary to popular belief</li>
+                    <li><i class="fa-solid fa-check"></i> Contrary to popular belief, is not simply.</li>
                 </ul>
             </div>
         </section>
@@ -47,28 +48,28 @@
 
          <!-- Start: Second Section -->
       
-        <div class="section-second">
-            <h2>My Plans</h2>
+        <div class="my-plans">
+            <h2 class="plans-title">My Plans</h2>
             <div class="plan-items">
             <div>
                 <img src="./images/icons/web.png" alt="Web Development Icon">
-                <h3>Web Development</h3>
-                <p>I want to Start</p>
+                <h3 class="plan-name">Web Development</h3>
+                <p class="plan-text">I want to Start</p>
             </div>
             <div>
                 <img src="./images/icons/js.png" alt="Javescript Icon">
-                <h3>Javascript</h3>
-                <p>I want to Learn</p>
+                <h3 class="plan-name">Javascript</h3>
+                <p class="plan-text">I want to Learn</p>
             </div>
             <div>
                 <img src="./images/icons/smoke.png" alt="Smoke Icon">
-                <h3>Smoking Habit</h3>
-                <p>I want to End</p>
+                <h3 class="plan-name">Smoking Habit</h3>
+                <p class="plan-text">I want to End</p>
             </div>
             <div>
                 <img src="./images/icons/ecom.png" alt="eCom icon">
-                <h3>Ecommerece</h3>
-                <p>I want to Develop</p>
+                <h3 class="plan-name">Ecommerece</h3>
+                <p class="plan-text">I want to Develop</p>
             </div>
             </div>
         </div>
@@ -77,10 +78,10 @@
 
          <!-- Start: Third Section -->
 
-         <section class="section-third">
-            <div class="section-info">
-            <h2>Awlays keep a positive mindset</h2>
-            <button>Call Now</button>
+         <section class="mindset">
+            <div class="mindset-info">
+            <h2 class="mindset-title">Awlays Keep A Positive<br> Mindset</h2>
+            <button class="primary-button">Call Now</button>
             </div>
          </section>
          <!-- End: Third Section -->
@@ -89,20 +90,22 @@
     <!-- Start: Footer -->
 
     <footer>
-        <div>
+        <div class="footer-section">
+        <div class="footer-left">
             <h2>Future</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+            <p>There are many variations of passages of Lorem Ipsum<br> available, but the majority have suffered alteration<br> insome form, by injected humour, or randomised words</p>
             <p>Email : info@gmail.com</p>
             <p>Phone : 01500 00 00 00</p>
             <img src="./images/icons/fb.png" alt="Facebook Icon">
             <img src="./images/icons/twitter.png" alt="Twitter Icon">
             <img src="./images/icons/youtube.png" alt="YouTube Icon">
         </div>
-        <div>
+        <div class="footer-right">
             <h3>Subscribe</h3>
             <input type="email" value="enter your email">
-            <input type="button" value="Subscribe">
+            <button class="primary-button blue">Subscribe</button>
         </div>
+    </div>
     </footer>
     <!-- End: Footer -->
 </body>
