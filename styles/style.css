@@ -1,0 +1,16 @@
+* {
+    
+}
+
+header {
+    background: url(../images/banner/banner3.png);
+}
+
+
+.plan-items {
+    display: flex;
+}
+
+.section-third {
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+}
